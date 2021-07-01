@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/viewSchedule" component={View} />
-          <Route path='/showStudent' render={props =>
+          <Route path='/createSchedule' render={props =>
             <div>
               <Create />
               <Student />
